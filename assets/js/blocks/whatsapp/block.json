@@ -1,0 +1,16 @@
+{
+	"name": "livechatbutton/whatsapp",
+	"title": "WhatsApp Chat",
+	"category": "widgets",
+	"keywords": [ "whatsapp", "live chat button", "WooCommerce" ],
+	"description": "Add whatsapp chat button to your website easily.",
+	"supports": {
+		"align": [ "wide", "full" ],
+		"html": false
+	},
+	"attributes": {
+		"id": { "type": "integer", "default": 0 }
+	},
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"editorScript": "./index.js"
+}

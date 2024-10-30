@@ -1,0 +1,2792 @@
+# Copyright (C) 2024 Asana Plugins
+# This file is distributed under the http://www.gnu.org/licenses/gpl-2.0.html.
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Chat Button 5.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/live-chat-button\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-08T15:12:27+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: asnp-easy-whatsapp\n"
+
+#. Plugin Name of the plugin
+msgid "Live Chat Button"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.asanaplugins.com/product/whatsapp-chat-wordpress/?utm_source=whatsapp-chat-wordpress&utm_campaign=live-chat-button&utm_medium=link"
+msgstr ""
+
+#. Description of the plugin
+msgid "WhatsApp Chat for WordPress and WooCommerce"
+msgstr ""
+
+#. Author of the plugin
+msgid "Asana Plugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.asanaplugins.com/"
+msgstr ""
+
+#. translators: 1: composer command. 2: plugin directory
+#: easy-whatsapp.php:43
+#: easy-whatsapp.php:61
+msgid "Your installation of the Live Chat Button plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr ""
+
+#: src/Admin/Admin.php:62
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Go Pro"
+msgstr ""
+
+#: src/Admin/Menu.php:28
+#: src/Admin/Menu.php:29
+msgid "AI Content & Chat"
+msgstr ""
+
+#: src/API/Account.php:39
+#: src/API/Account.php:67
+#: src/API/Content.php:84
+#: src/API/Image.php:80
+#: src/API/WhatsApp.php:40
+#: src/API/WhatsApp.php:68
+msgid "Unique identifier for the resource."
+msgstr ""
+
+#: src/API/Account.php:110
+#: src/API/Account.php:116
+#: src/API/Account.php:155
+#: src/API/Account.php:182
+#: src/API/WhatsApp.php:120
+#: src/API/WhatsApp.php:126
+#: src/API/WhatsApp.php:169
+#: src/API/WhatsApp.php:196
+msgid "Invalid item ID."
+msgstr ""
+
+#: src/API/Account.php:128
+msgid "Cannot create existing account."
+msgstr ""
+
+#: src/API/Account.php:149
+#: src/API/Account.php:176
+#: src/API/Account.php:205
+#: src/API/WhatsApp.php:163
+#: src/API/WhatsApp.php:190
+#: src/API/WhatsApp.php:217
+msgid "ID is invalid."
+msgstr ""
+
+#: src/API/Account.php:187
+#: src/API/WhatsApp.php:201
+msgid "Cannot delete item."
+msgstr ""
+
+#: src/API/Account.php:211
+#: src/API/WhatsApp.php:223
+msgid "Cannot duplicate item."
+msgstr ""
+
+#: src/API/Account.php:226
+#: src/API/WhatsApp.php:238
+msgid "Items are invalid."
+msgstr ""
+
+#: src/API/Account.php:232
+#: src/API/WhatsApp.php:244
+msgid "Cannot reorder items."
+msgstr ""
+
+#: src/API/Account.php:238
+#: src/API/WhatsApp.php:250
+msgid "Reordered successfully."
+msgstr ""
+
+#: src/API/Account.php:261
+#: assets/js/admin/admin/index.js:2
+msgid "Account"
+msgstr ""
+
+#: src/API/Account.php:308
+#: src/API/WhatsApp.php:292
+msgid "Error occurred in saving item."
+msgstr ""
+
+#: src/API/BaseController.php:31
+msgid "Sorry, you cannot list resources."
+msgstr ""
+
+#: src/API/BaseController.php:47
+msgid "Sorry, you cannot view this resource."
+msgstr ""
+
+#: src/API/BaseController.php:61
+msgid "Sorry, you cannot create an item."
+msgstr ""
+
+#: src/API/BaseController.php:75
+msgid "Sorry, you cannot update the item."
+msgstr ""
+
+#: src/API/BaseController.php:89
+msgid "Sorry, you are not allowed to delete this resource."
+msgstr ""
+
+#: src/API/BaseController.php:103
+msgid "Sorry, you are not allowed to duplicate this resource."
+msgstr ""
+
+#: src/API/BaseController.php:117
+msgid "Sorry, you are not allowed to reorder items."
+msgstr ""
+
+#: src/API/Chat.php:24
+msgid "Chat query"
+msgstr ""
+
+#: src/API/Chat.php:57
+msgid "Empty query."
+msgstr ""
+
+#: src/API/Chat.php:62
+#: src/API/Content.php:106
+#: src/API/Image.php:102
+msgid "OpenAI API Key is required."
+msgstr ""
+
+#: src/API/Chat.php:127
+msgid "Sorry, something went wrong please try again."
+msgstr ""
+
+#: src/API/Content.php:26
+#: src/API/Content.php:48
+msgid "Content model"
+msgstr ""
+
+#: src/API/Content.php:30
+#: src/API/Content.php:52
+msgid "Content prompt"
+msgstr ""
+
+#: src/API/Content.php:70
+#: src/API/Image.php:66
+msgid "Layout name"
+msgstr ""
+
+#: src/API/Content.php:111
+#: src/API/Image.php:107
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Prompt is required."
+msgstr ""
+
+#: src/API/Content.php:116
+#: src/API/Image.php:112
+#: src/Helpers/AI.php:7
+#: src/Helpers/AI.php:26
+#: src/Helpers/AI.php:34
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Model is required."
+msgstr ""
+
+#: src/API/Content.php:120
+#: src/API/Image.php:116
+#: src/Helpers/AI.php:60
+msgid "Invalid model."
+msgstr ""
+
+#: src/API/Content.php:125
+msgid "Invalid max token."
+msgstr ""
+
+#: src/API/Content.php:184
+msgid "Error occurred in getting content."
+msgstr ""
+
+#: src/API/Content.php:194
+msgid "Title is required to create a post."
+msgstr ""
+
+#: src/API/Content.php:199
+msgid "Content is required to create a post."
+msgstr ""
+
+#: src/API/Content.php:223
+msgid "Error occurred in creating post."
+msgstr ""
+
+#: src/API/Content.php:232
+#: src/API/Image.php:202
+#: assets/js/admin/admin/index.js:2
+msgid "New Layout"
+msgstr ""
+
+#: src/API/Content.php:285
+#: src/API/Image.php:219
+msgid "Error occurred in saving layout."
+msgstr ""
+
+#: src/API/Content.php:290
+#: src/API/Image.php:224
+msgid "Error occurred in getting layout."
+msgstr ""
+
+#: src/API/Content.php:303
+#: src/API/Content.php:322
+#: src/API/Image.php:237
+#: src/API/Image.php:256
+msgid "Invalid layout ID."
+msgstr ""
+
+#: src/API/Content.php:309
+#: src/API/Content.php:328
+#: src/API/Image.php:243
+#: src/API/Image.php:262
+msgid "Layout doesn't exist."
+msgstr ""
+
+#: src/API/Content.php:333
+#: src/API/Image.php:267
+msgid "Cannot delete the layout."
+msgstr ""
+
+#: src/API/Content.php:352
+#: src/API/Content.php:359
+#: src/API/Content.php:365
+#: src/API/Content.php:373
+#: src/API/Image.php:309
+msgid "Sorry, you don't have permission to do this request."
+msgstr ""
+
+#: src/API/Image.php:26
+msgid "Image model"
+msgstr ""
+
+#: src/API/Image.php:30
+msgid "Image prompt"
+msgstr ""
+
+#: src/API/Image.php:48
+msgid "Image url"
+msgstr ""
+
+#: src/API/Image.php:164
+msgid "Error occurred in getting images."
+msgstr ""
+
+#: src/API/Image.php:174
+#: assets/js/admin/admin/index.js:2
+msgid "Image url is required."
+msgstr ""
+
+#: src/API/Image.php:193
+msgid "Error occurred in saving image."
+msgstr ""
+
+#: src/API/Items.php:43
+#: src/API/Items.php:52
+msgid "Search term is required."
+msgstr ""
+
+#: src/API/Items.php:47
+#: src/API/Items.php:108
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "Type is required."
+msgstr ""
+
+#: src/API/Items.php:104
+msgid "Items is required."
+msgstr ""
+
+#: src/API/Review.php:30
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/review/index.js:2
+msgid "Action is required."
+msgstr ""
+
+#: src/API/Review.php:43
+msgid "Action not found."
+msgstr ""
+
+#: src/API/Settings.php:52
+#: src/API/Settings.php:86
+msgid "Settings data is required."
+msgstr ""
+
+#: src/API/WhatsApp.php:142
+msgid "Cannot create an existing whatsapp."
+msgstr ""
+
+#: src/API/WhatsApp.php:279
+#: assets/js/admin/admin/index.js:2
+msgid "WhatsApp"
+msgstr ""
+
+#: src/API/WhatsApp.php:314
+#: assets/js/admin/admin/index.js:2
+msgid "Start Chat"
+msgstr ""
+
+#: src/API/WhatsApp.php:316
+#: assets/js/admin/admin/index.js:2
+msgid "Typically replies in minutes"
+msgstr ""
+
+#: src/API/WhatsApp.php:318
+msgid "Hi there"
+msgstr ""
+
+#: src/API/WhatsApp.php:333
+#: assets/js/admin/admin/index.js:2
+msgid "Please add an account to the whatsapp."
+msgstr ""
+
+#: src/Helpers.php:373
+msgid "Image url is required to save the image."
+msgstr ""
+
+#: src/Helpers.php:410
+msgid "Invalid image extension."
+msgstr ""
+
+#: src/Helpers.php:440
+msgid "Error occurred on getting image file."
+msgstr ""
+
+#: src/Helpers/AI.php:38
+msgid "Max tokens are required."
+msgstr ""
+
+#: src/Helpers/AI.php:42
+msgid "Max tokens must be a positive integer."
+msgstr ""
+
+#: src/Helpers/AI.php:64
+msgid "Max tokens must be less or equal to %d for the %s model."
+msgstr ""
+
+#. translators: 1: URL of WordPress.org, 2: The minimum WordPress version number
+#: src/Plugin.php:219
+msgid "The Live Chat Button plugin requires <a href=\"%1$s\">WordPress</a> %2$s or greater to be installed and active."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on gettings items."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "ID is required to get an item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "There was an error on getting the item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "Data is required."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Data is required to create an item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on creating the item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Data is required to update an item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Item ID is required to update it."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on updating the item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ID is required to delete an item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on deleting the item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ID is required to duplicate an item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on duplicating the item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Are you sure to delete?"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Warning!"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Yes"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Cancel"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Duplicated Successfully."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Error occurred on duplicating the item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Deleted Successfully."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Error occurred on deleting the item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Updated Successfully."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Error occurred on updating the item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Live Chat"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Add New"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There is not any Item."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Info!"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ID"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Name"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Shortcode"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Status"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Actions"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Duplicate"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Delete"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "<p>Hi there<br/><br/>How can I help you</p>"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "<p>Hi! Click one of our member below to chat on WhatsApp</p>"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "WhatsApp Conversation"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Need Help?"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid " Icon"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Icon"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Text(Optional)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Button Text"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Show WhatsApp Messenger Icon"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Type & Position"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Type"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Floating Bubble "
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Embed Bubble "
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Embed Chat Window "
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Button"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Position"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid " Left"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid " Center"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid " Right"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Bottom"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Edit"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "URL"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Apply"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Don't display chat on these pages"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Add"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "DISPLAY CHAT ONLY ON THESE PAGES"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "All pages"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Excluded Pages"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Specific Pages"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "All WooCommerce Products"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Specific WooCommerce Products"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Display Widget On"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Mobile\t"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Desktop"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Select type of visitors who can view WhatsApp"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Display Chat for"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "All Visitors "
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "New Visitors"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Who come to your Website for the first time"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Returning Visitors"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Who had been on your Website before"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Logged in Users"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Guest Users"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "Items are required."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "Invalid type."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "There was an error on getting items."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "Search value is required."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "There was an error on searching items."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Products"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Excluded Products"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Categories"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Excluded Categories"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Tags"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Excluded Tags"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "One condition should match"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "All conditions should match"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Excluded Products(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Categories(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Excluded Categories(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Tags(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Excluded Tags(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Display Settings"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "The settings below are used to activate/deactivate the widget depending on specific parameters."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid " Pages"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Devices"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Visitors"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Pages"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Notifications"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "NOTIFICATIONS"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Bubble notification badge\t"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Show notification in browser tab title"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Triggers"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Time On Page (Sec)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Here you can set the time that will open the chat window automatically."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Use Scroll bar"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Add scroll bar in your widget with account"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Close Effect"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Enable a scale effect on the button when the chat window is closed."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Display Chat Window on Load"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Message"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Colors"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid " Colors"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Header Background Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Button Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Header Text Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Header Icon Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Header Caption Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Icon Background Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Icon Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Icon Text Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Online Border Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Offline Border Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Button Background Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Button Name Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Button Caption Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Button Icon Color"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Button Border Radius"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Description"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Header Text"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Accounts"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Select accounts you want to display in WhatsApp Chat Widget"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Start Chat Button"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Content"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Settings"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Styles"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Template"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+#: assets/js/whatsapp/index.js:2
+msgid "By Asana Plugins"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+#: assets/js/whatsapp/index.js:2
+msgid "Type a message..."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+#: assets/js/whatsapp/index.js:2
+msgid "Query is required."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+#: assets/js/whatsapp/index.js:2
+msgid "There was an error on chat."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+#: assets/js/whatsapp/index.js:2
+msgid "You"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+#: assets/js/whatsapp/index.js:2
+msgid "Typically replies in minues"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+#: assets/js/whatsapp/index.js:2
+msgid "Typically replies in a few hours"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+#: assets/js/whatsapp/index.js:2
+msgid "Typically replies within an hour"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/blocks/whatsapp/index.js:2
+#: assets/js/whatsapp/index.js:2
+msgid "Typically replies instantly"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Select a template to start with"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Available in the Pro Version"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Saved Successfully."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Error occurred on saving the whatsapp."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Save"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Enable or disable it."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Timezone"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "How to redirect WhatsApp URL"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Open in new tab"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Powered By"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Disable powered by message in the pro version"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Desktop Url"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "https://api.whatsapp.com/"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "https://web.whatsapp.com/"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Web"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Mobile Url"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "API"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "whatsapp://send?phone="
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Protocol"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Save Changes"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "WhatsApp on WooCommerce product pages"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Enabled"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Button position"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Before Add to Cart button(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "After Add to Cart button"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Before Add to Cart form(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "After Add to Cart form(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Before product excerpt(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "After product excerpt(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "After product meta(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Before CSS selector(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "After CSS selector(Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "CSS Selector"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on getting settings."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on saving settings."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Enable Analytics on WhatsApp"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Google Analytics"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "View WhatsApp tracking on Google Analytics > Behavior > Events"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Facebook Pixel"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "View WhatsApp recorded events in Event Manager of Facebook for Business"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "API Key"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Get your API key from "
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "OpenAi."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Max Tokens"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Limit the length of the chatbot response"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Content Aware Chat"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ChatGPT can discuss about the page title."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on saving the settings."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "General "
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "AI Assistant"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "WooCommerce "
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Analytics"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on gettings accounts."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ID is required to get an account."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on getting the account."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Data is required to create an account."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on creating the account."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Data is required to update an account."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Account ID is required to update it."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on updating the account."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ID is required to delete an account."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on deleting the account."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ID is required to duplicate an account."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on duplicating the account."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Number"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Remove"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Custom"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Upload a file or drag and drop here"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "PNG, JPG, GIF"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Avatar"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Select From Images"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Upload Image"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "All "
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Male "
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Female "
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Please enter a valid phone number or group chat url."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Account number is required."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Account name is required."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Error occurred on saving the account."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "BackGround Message"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ChatGPT AI Assistant"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Account Number or group chat URL"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Text Message to WhatsApp"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "A predefined text message that user can send to you when contacting with WhatsApp"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Caption"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Custom caption"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Custom Caption"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Always available online"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Custom Availability"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Use Timezone"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Use specific timezone for this account"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "There was an error on getting content."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Post title is required to create a post."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Empty content is not allowed."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on create post."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ID is required to get a layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Layout name is required."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on create layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ID is required to delete a layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on deleting the layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Post created successfully."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Close"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Open Post"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on getting the layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on generating images."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "There was an error on saving image."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Headings are required!"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Topic"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Suggest Title"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Generate Article"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Title"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Headings"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "# of Headings:"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "2"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "3"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "4"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "6"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "8"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "10"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "12"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Generate Headings"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Feel free to modify the headings as you see fit before clicking on \"Generate Content\" again. You can add, rewrite, remove, or reorganize them in any way you like"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "# of Content:"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "1"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "5"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Generate Content"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Before creating a post, you have the option to customize its content. Markdown formatting is supported, and it will be automatically converted to HTML when the post is published."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "words"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Excerpt"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Generate Excerpt"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Meta Description"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Generate Meta Description"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Generate Tags"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Featured Image"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Generate Image"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Post Type"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Create Post"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Layout"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Default"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Update"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Save As"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Post"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Keywords (Available in Pro)"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Include Keywords"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Comma separated keywords."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Exclude Keywords"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Language"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "English"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "German"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "French"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Spanish"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Italian"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Chinese"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Japanese"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Portuguese"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Other"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Writing Style"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Informative"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Academic"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Argumentative"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Biographical"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Creative"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Descriptive"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Dialogue"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Emotional"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Evaluative"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Journalistic"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Reflective"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Technical"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Writing Tone"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Assertive"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Formal"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Authoritative"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Cheerful"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Confident"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Friendly"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Humorous"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Informal"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Inspirational"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Neutral"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Narrative"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Professional"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Sarcastic"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "Skeptical"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Model"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Temperature"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Between 0 and 1. A higher value indicates that the model will take more risks."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "This refers to the maximum number of tokens that the model can generate. Once this limit is reached, the model will stop generating output."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "turbo"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "gpt-4"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "gpt-4-32k"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "davinci-003"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "curie-001"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "babbage-001"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/aicontent/index.js:2
+msgid "ada-001"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "The GPT-4 and GPT-4-32k are in beta and are not available to everyone.You can signup for the waiting list"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "here to use them."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "The gpt-3.5-turbo and davinci models are currently the only acceptable ones for writing texts."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Prompts"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Prompts represent the exact request sent to the AI. The variables between curly braces will be replaced by the content of the corresponding field. Prompts are saved in your templates."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Title Prompt"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Heading Prompt"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Content Prompt"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Excerpt Prompt"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Meta Description Prompt"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Tags Prompt"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Error occurred on getting the layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ID is required to update the layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Name is required to update the layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Error occurred on updating the layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Layout updated successfully."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Name is required to save as the layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Error occurred on creating layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Layout created successfully."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ID is required to delete the layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Error occurred in deleting the layout."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Layout deleted successfully."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Post Writer"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Edit Image"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Alternative Text"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "File Name"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Download"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Save To Media"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Generated Images"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "# of images:"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "9"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Generate Images"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Creator"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "None"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Leonardo da Vinci"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Vincent van Gogh"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Pablo Picasso"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Michelangelo"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Rembrandt van Rijn"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Claude Monet"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Salvador Dali"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Edvard Munch"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Jackson Pollock"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Gustav Klimt"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Frida Kahlo"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Pieter Bruegel the Elder"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Georgia O Keeffe"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Titian"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Wassily Kandinsky"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Johannes Vermeer"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Diego Velázquez"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Andy Warhol"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Mark Rothko"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Photography Style"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Portrait"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Landscape"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Macro"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Street"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Documentary"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Fine Art"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Still Life"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Black and White"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Architecture"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Wildlife"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Fashion"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Food"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Sports"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Underwater"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Night"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Wedding"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Travel"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Conceptual"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Aerial"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Camera Mode"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Aperture"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Shutter Speed"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "ISO"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Exposure Compensation"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "White Balance"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Focus Mode"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Metering Mode"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Drive Mode"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Image Format"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Color Space"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Picture Style"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Flash Mode"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Autofocus Mode"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Image Stabilization"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Bracketing"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Noise Reduction"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Aspect Ratio"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Video Resolution"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Time-lapse"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Self Timer"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Image Effect"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Sepia"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Vintage"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Retro"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Grainy"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "High Contrast"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Dreamy"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Soft Focus"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Pop Art"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "HDR"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Silhouette"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Zoom Blur"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Motion Blur"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Panorama"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Color Splash"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "3D"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Image Resolution"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "4k"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "1080p"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "720p"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "480p"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Image Size"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "256x256"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "512x512"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "1024x1024"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Image Generator"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/review/index.js:2
+msgid "There was an error on applying review."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/review/index.js:2
+msgid "We hope you're enjoying %1$s! %3$s Could you please do us a BIG favor and give it a %2$s to help us spread the word and boost our motivation?%4$s %5$sShare your feature requests%6$s with the review, We always check them and try our best."
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/review/index.js:2
+msgid "OK, you deserve it!"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/review/index.js:2
+msgid "I already did"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/review/index.js:2
+msgid "Maybe Later"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/review/index.js:2
+msgid "I need help"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+#: assets/js/admin/review/index.js:2
+msgid "Never show again"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "5 Star Review"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Need help?"
+msgstr ""
+
+#: assets/js/admin/admin/index.js:2
+msgid "Content Writer"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "# of headings:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Language:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Writing Style:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Writing Tone:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Temperature:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Max Tokens:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Model:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Prompt for Title:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Prompt for Headings:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Prompt for Content:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Prompt for Excerpt:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Prompt for Meta Description:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Prompt for Tags:"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Generating title failed: %s"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Title is required."
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Generating headings failed: %s"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Headings are required."
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Generating content failed: %s"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Generating excerpt failed: %s"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Generating meta description failed: %s"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+msgid "Generating tags failed: %s"
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Generating..."
+msgstr ""
+
+#: assets/js/admin/aicontent/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "AI Content Writer"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Number of Paragraphs:"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Generate"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Options"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "More Options"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "More Options (Pro)"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Summarize"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Enhance Text"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Paragraph"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Expand"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Make a quote"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Correct Text"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Creative Writing Prompts"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Product Description"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "News Headline"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Creative Advertisement Slogan"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Bulleted list"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Make a Question"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Rewrite"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Social Media Caption"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Conclusion"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Script Dialogue"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Job Advertisement"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Motivational Message"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Brainstorming Idea"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Scientific Hypothesis"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Poetic Line"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Philosophical Question"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Persuasive Argument"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Historical Trivia Fact"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Opening Line For a Novel"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Philosophical Quote"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Transition Words"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Tagline For a Brand"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Mission Statement Nonprofit Organization"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Call to Action"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+msgid "AI Generator"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+#: assets/js/admin/legacy/index.js:2
+msgid "Replace"
+msgstr ""
+
+#: assets/js/admin/aimenu/index.js:2
+msgid "Append"
+msgstr ""
+
+#: assets/js/admin/legacy/index.js:2
+msgid "AI Content"
+msgstr ""
+
+#: assets/js/admin/legacy/index.js:2
+msgid "AI Tools"
+msgstr ""
+
+#: assets/js/admin/legacy/index.js:2
+msgid "Explain Your Product"
+msgstr ""
+
+#: assets/js/admin/legacy/index.js:2
+msgid "Generate All"
+msgstr ""
+
+#: assets/js/admin/legacy/index.js:2
+msgid "Short Description"
+msgstr ""
+
+#: assets/js/admin/legacy/index.js:2
+msgid "Product Tags"
+msgstr ""
+
+#: assets/js/admin/legacy/index.js:2
+msgid "Product Generator"
+msgstr ""
+
+#: assets/js/admin/legacy/index.js:2
+msgid "Copy"
+msgstr ""
+
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "Loading WhatsApp..."
+msgstr ""
+
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "Please select a WhatsApp chat"
+msgstr ""
+
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "Edit selected whatsapp"
+msgstr ""
+
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "WhatsApp Chat"
+msgstr ""
+
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "Add WhatsApp chat button to your website easily."
+msgstr ""
+
+#: assets/js/blocks/whatsapp/index.js:2
+msgid "Done"
+msgstr ""
+
+#: assets/js/blocks/whatsapp/block.json
+msgctxt "block title"
+msgid "WhatsApp Chat"
+msgstr ""
+
+#: assets/js/blocks/whatsapp/block.json
+msgctxt "block keyword"
+msgid "whatsapp"
+msgstr ""
+
+#: assets/js/blocks/whatsapp/block.json
+msgctxt "block keyword"
+msgid "live chat button"
+msgstr ""
+
+#: assets/js/blocks/whatsapp/block.json
+msgctxt "block keyword"
+msgid "WooCommerce"
+msgstr ""
+
+#: assets/js/blocks/whatsapp/block.json
+msgctxt "block description"
+msgid "Add whatsapp chat button to your website easily."
+msgstr ""
